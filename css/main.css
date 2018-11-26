@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
+Version:
+Last change:
 Assigned to:  Bach Le
-Primary use:  
+Primary use:
 -------------------------------------------------------------------*/
 
 
@@ -13,22 +13,22 @@ Primary use:
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Lato-Regular;
-  src: url('../fonts/Lato/Lato-Regular.ttf'); 
+  src: url('../fonts/Lato/Lato-Regular.ttf');
 }
 
 @font-face {
   font-family: Lato-Bold;
-  src: url('../fonts/Lato/Lato-Bold.ttf'); 
+  src: url('../fonts/Lato/Lato-Bold.ttf');
 }
 
 
@@ -351,7 +351,7 @@ input.input100 {
 }
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 .where1-parent {
   position: relative;
@@ -372,7 +372,7 @@ input.input100 {
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .how1 {
   border-radius: 50%;
@@ -417,7 +417,7 @@ input.input100 {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.8);
+  /*background-color: rgba(0,0,0,0.8);*/
 }
 
 .overlay1::after {
@@ -618,7 +618,7 @@ input.input100 {
   .w-full-sm {width: 100%;}
   /*---------------------------------------------*/
 
-  
+
 }
 
 
@@ -644,4 +644,9 @@ input.input100 {
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
 
+}
+
+.background {
+    background-color: #41281b;
+    background-image: repeating-linear-gradient(-17deg, transparent 32px, transparent 35px, rgba(76,47,30,1.5) 36px, rgba(76,47,30,1.5) 38px);
 }

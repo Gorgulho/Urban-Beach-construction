@@ -1,2 +1,2 @@
 # Urban-Beach-contruction
-lading page from urban beach rentals
+Lading page from urban beach rentals
