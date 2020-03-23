@@ -33,7 +33,7 @@ $mail = new PHPMailer(TRUE);
         $mail->Host='mail.urbanbeachrentals.com';
         $mail->SMTPSecure='tls';
         $mail->Username='no-reply@urbanbeachrentals.com';
-        $mail->Password='UrbanReply1820';
+        $mail->Password='****';
         $mail->Port=25;
 
         //$mail->SMTPDebug = 3; //Alternative to above constant
